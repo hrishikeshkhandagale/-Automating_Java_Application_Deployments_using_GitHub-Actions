@@ -15,55 +15,55 @@ public class App {
         <!DOCTYPE html>
         <html>
         <head>
-            <title>My Docker Project</title>
+            <title>My Docker App</title>
             <style>
                 body {
                     font-family: Arial;
-                    background-color: #eef2f7;
+                    background-color: #f4f4f4;
                     text-align: center;
-                    padding: 50px;
+                    padding-top: 60px;
                 }
 
-                .box {
+                .card {
                     background: white;
-                    padding: 30px;
-                    border-radius: 10px;
-                    max-width: 600px;
+                    padding: 25px;
+                    width: 500px;
                     margin: auto;
-                    box-shadow: 0 0 10px gray;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px #aaa;
                 }
 
-                h1 {
+                h2 {
                     color: #2c3e50;
                 }
 
+                p {
+                    font-size: 18px;
+                }
+
                 .footer {
-                    margin-top: 20px;
+                    margin-top: 15px;
                     color: gray;
+                    font-size: 14px;
                 }
             </style>
         </head>
 
         <body>
-            <div class="box">
-                <h1>Docker + Spring Boot Project</h1>
+            <div class="card">
+                <h2>Spring Boot + Docker Project</h2>
 
                 <p>
-                    This project is created by <b>Hrishikesh Khandagale</b>
+                    Created By: <b>Hrishikesh Khandagale</b>
                 </p>
 
                 <p>
-                    Technologies Used:
-                </p>
-
-                <p>
-                    ✔ Spring Boot Application <br>
-                    ✔ Docker Containerization <br>
-                    ✔ GitHub Actions CI/CD
+                    This is a simple Java application  
+                    running inside Docker container.
                 </p>
 
                 <div class="footer">
-                    Project Successfully Running in Docker Container
+                    Project Deployed Successfully!
                 </div>
             </div>
         </body>
