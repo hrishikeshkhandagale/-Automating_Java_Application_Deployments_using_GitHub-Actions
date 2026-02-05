@@ -15,57 +15,85 @@ public class App {
         <!DOCTYPE html>
         <html>
         <head>
-            <title>My Docker App</title>
+            <title>Spring Boot Docker App</title>
+
             <style>
                 body {
-                    font-family: Arial;
-                    background-color: #f4f4f4;
+                    font-family: 'Segoe UI', Arial;
+                    background: linear-gradient(to right, #1e3c72, #2a5298);
                     text-align: center;
-                    padding-top: 60px;
+                    padding-top: 80px;
+                    color: white;
                 }
 
                 .card {
                     background: white;
-                    padding: 25px;
-                    width: 500px;
+                    color: black;
+                    padding: 30px;
+                    width: 520px;
                     margin: auto;
-                    border-radius: 10px;
-                    box-shadow: 0 0 10px #aaa;
+                    border-radius: 15px;
+                    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
                 }
 
                 h2 {
                     color: #2c3e50;
                 }
 
-                p {
-                    font-size: 18px;
+                .name {
+                    color: #2980b9;
+                    font-weight: bold;
+                }
+
+                .box {
+                    background: #f2f2f2;
+                    padding: 15px;
+                    margin-top: 15px;
+                    border-radius: 10px;
                 }
 
                 .footer {
-                    margin-top: 15px;
+                    margin-top: 20px;
                     color: gray;
                     font-size: 14px;
+                }
+
+                .tag {
+                    display: inline-block;
+                    padding: 8px 15px;
+                    background: #2a5298;
+                    color: white;
+                    border-radius: 20px;
+                    margin-top: 10px;
                 }
             </style>
         </head>
 
         <body>
+
             <div class="card">
+
                 <h2>Spring Boot + Docker Project</h2>
 
                 <p>
-                    Created By: <b>Hrishikesh Khandagale</b>
+                    Created By: <span class="name">Hrishikesh Khandagale</span>
                 </p>
 
-                <p>
+                <div class="box">
                     This is a simple Java application  
                     running inside Docker container.
-                </p>
+                </div>
+
+                <div class="tag">
+                    Dockerized Application
+                </div>
 
                 <div class="footer">
                     Project Deployed Successfully!
                 </div>
+
             </div>
+
         </body>
         </html>
         """;
